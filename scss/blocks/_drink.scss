@@ -1,0 +1,218 @@
+.drink__wrapper{
+  display: flex;
+}
+
+.drink_species{
+  display: flex;
+  width: 255px;
+  flex-direction: column;
+  margin-right: 125px;
+  margin-left: 85px;
+
+}
+.drink__link{
+  padding-bottom: 24px;
+  border-bottom: solid 1px #83888F;
+  margin-bottom: 24px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color:#A0A3A5;
+}
+
+.drink__link:hover{
+  color:#333D4B;
+}
+
+.drink__link:hover .drink__span{
+  color:#0E8784;
+}
+
+.drink__link--active{
+  color:#333D4B;
+}
+
+.drink__span{
+  width: 32px;
+  height: 35px;
+  margin-right: 28px;
+  color: #83888F;
+}
+
+
+.drink__span--active{
+  color:#0E8784;
+}
+
+
+.drink__user{
+  width: 730px;
+}
+
+.drink__strong-wrapper{
+  display: flex;
+  width: 730px;
+  margin-bottom: 56px;
+  justify-content: space-between;
+
+}
+
+.drink__strong{
+  margin: 0;
+  padding: 0;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+
+}
+
+.drink__img{
+  width: 18px;
+  height: 12px;
+  margin-top: 15px;
+}
+
+.drink__label-wrapper{
+  display: flex;
+  margin-bottom: 88px;
+}
+
+.drink__label{
+  width: 228px;
+  background-color:  #F4F1EB;
+  margin-right: 23px;
+  border-radius: 8px;
+
+  &:hover{
+    background-color:#FDD6BA;
+  }
+  
+  &:active{
+    background-color: #0E8784;
+  }
+
+}
+
+.drink__label:nth-child(3){
+  margin-right: 0;
+}
+
+
+
+.drink__subtitle{
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  padding-top: 32px;
+  padding-left: 28px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color:#333D4B;
+
+}
+
+.drink__subtext{
+  margin: 0;
+  padding: 0;
+  padding-right: 28px;
+  padding-bottom: 84px;
+  padding-left: 28px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color:#333D4B;
+}
+
+.drink__sub-strong-wrapper{
+  display: flex;
+  width: 730px;
+  margin-bottom: 88px;
+  justify-content: space-between;
+}
+
+.drink__sub-strong{
+  margin: 0;
+  padding: 0;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color:#83888F;
+}
+
+.drink__sub-img{
+  width: 18px;
+  height: 12px;
+  margin-top: 15px;
+}
+
+.drink__footer{
+  width: 730px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.drink__footer--text{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 47px;
+  margin-bottom: 8px;
+  margin-left: 64px;
+  color:#fff;
+  opacity: 50.37%;
+}
+
+.drink__blockquote{
+  width: 602px;
+  margin: 0;
+  padding: 0;
+  margin-right: 64px;
+  margin-left: 64px;
+  padding-bottom:47px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color:#fff;
+
+}
+
+.drink__blockquote-span{
+  color:#0E8784;
+}
+
+.drink__button{
+  display: block;
+  margin-bottom: 168px;
+  margin-left: 513px;
+  padding: 15px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #E2DEDB;
+  color:#FEFCF7;
+  border-radius: 6px;
+  border:none;
+
+  &:hover{
+    background-color: #66D2CF;
+    color:#FEFCF7;
+  }
+
+  &:active{
+    background-color: #0E8784;
+    color: #FEFCF7;
+  }
+}

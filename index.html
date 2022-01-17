@@ -5,9 +5,209 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Template Repo</title>
 </head>
 <body>
-  
+  <header>
+    <div class="container">
+      <div class="site-header__wrapper">
+        <div class="site-header__user">
+          <a class="site-header__link" href="index.html">
+            <img class="site-header__img" src="./images/Group 5.svg" alt="site logo">
+          </a>
+        </div>
+        <nav class="nav-bar">
+          <ul class="nav-bar__list">
+            <li class="nav-bar__item"><a class="nav-bar__link" href="./index.html">HOME</a></li>
+            <li class="nav-bar__item"><a class="nav-bar__link" href="#">ABOUT US</a></li>
+            <li class="nav-bar__item"><a class="nav-bar__link" href="#">CREATE YOUR PLAN</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__user">
+            <h1 class="hero__title">Create plan</h1> 
+            <p class="hero__text">Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.
+            </p>        
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="work">
+      <div class="container">
+        <div class="work__wrapper">
+          <h2 class="visually-hidden">How it works</h2>
+          <span class="work__span">
+            <span class="work__subspan"></span>
+            <span class="work__subour"></span>
+            <span class="work__subnext"></span>
+          </span>
+          <ol class="work__list">
+            <li class="work__item">
+              <number class="work__num">01</number>
+              <h3 class="work__title">Pick your<br> coffee</h3>
+              <p class="work__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </li>
+            <li class="work__item">
+              <number class="work__num">02</number>
+              <h3 class="work__title">Choose the frequency</h3>
+              <p class="work__text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+            </li>
+            <li class="work__item">
+              <number class="work__num">03</number>
+              <h3 class="work__title">Receive and enjoy!</h3>
+              <p class="work__text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="drink">
+      <div class="container">
+        <div class="drink__wrapper">
+          <div class="drink_species">
+            <a class="drink__link drink__link--active">
+              <span class="drink__span drink__span--active">01</span> 
+              Preferences
+            </a>
+            <a class="drink__link">
+              <span class="drink__span">02</span>
+              Bean Type
+            </a>
+            <a class="drink__link">
+              <span class="drink__span">03</span>
+              Quantity
+            </a>
+            <a class="drink__link">
+              <span class="drink__span">04</span>
+              Grind Option
+            </a>
+            <a class="drink__link">
+              <span class="drink__span">05</span>
+              Deliveries
+            </a>
+          </div>
+
+          <div class="drink__user">
+            <form class="drink__item" action="https://echo.htmlacademy.ru/" mathod="post">
+              <div class="drink__strong-wrapper">
+                <strong class="drink__strong">How do you drink your coffee?</strong>
+                <img class="drink__img" src="./images/^.svg" alt="logo">
+              </div>
+              <div class="drink__label-wrapper">
+                <label class="drink__label" for="name" >
+                  <input class="visually-hidden" type="radio" id="name">
+                  <span class="drink__subspan">
+                    <h3 class="drink__subtitle">Capsule</h3>
+                    <p class="drink__subtext">
+                    Compatible with Nespresso systems and similar brewers
+                  </p>
+                  </span>
+                </label>
+                
+                <label class="drink__label" for="name" >
+                  <input class="visually-hidden" type="radio" id="name">
+                  <span class="drink__subspan">
+                    <h3 class="drink__subtitle">Filter</h3>
+                    <p class="drink__subtext">
+                    For pour over or drip methods like Aeropress, Chemex, and V60
+                  </p>
+                  </span>
+                </label>
+                
+                <label class="drink__label" for="name" >
+                  <input class="visually-hidden" type="radio" id="name">
+                  <span class="drink__subspan">
+                    <h3 class="drink__subtitle">Espresso</h3>
+                    <p class="drink__subtext">
+                    Dense and finely ground beans for an intense, flavorful experience
+                  </p>
+                  </span>
+                </label> 
+              </div>
+              
+              <div class="drink__sub-strong-wrapper">
+                <strong class="drink__sub-strong">What type of coffee?</strong>
+                <img class="drink__sub-img" src="./images/^^.svg" alt="logo">
+              </div>
+              <div class="drink__sub-strong-wrapper">
+                <strong class="drink__sub-strong">How much would you like?</strong>
+                <img class="drink__sub-img" src="./images/^^.svg" alt="logo">
+              </div>
+              <div class="drink__sub-strong-wrapper">
+                <strong class="drink__sub-strong">Want us to grind them?</strong>
+                <img class="drink__sub-img" src="./images/^^.svg" alt="logo">
+              </div>
+              <div class="drink__sub-strong-wrapper">
+                <strong class="drink__sub-strong">How often should we deliver?</strong>
+                <img class="drink__sub-img" src="./images/^^.svg" alt="logo">
+              </div>
+              <div class="drink__footer">
+                <p class="drink__footer--text">Order Summary</p>
+                <blockquote class="drink__blockquote">
+                  “I drink my coffee using <span class="drink__blockquote-span">Capsules</span>, with a <span class="drink__blockquote-span">_____</span> type of bean. <span class="drink__blockquote-span">_____</span> , sent to me <span class="drink__blockquote-span"> _____</span>.”
+                </blockquote>
+              </div>
+              <button class="drink__button">Create my plan!</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="site-footer">
+        <div class="site-footer__wrapper">
+          <div class="site-footer__user">
+            <a class="site-footer__link" href="index.html">
+              <img class="site-footer__img" src="./images/Group 5 (1).svg" alt="site logo">
+            </a>
+          </div>
+          <nav class="footer-nav-bar">
+            <ul class="footer-nav-bar__list">
+              <li class="footer-nav-bar__item">
+                <a class="footer-nav-bar__link" href="./index.html">HOME</a>
+              </li>
+              <li class="footer-nav-bar__item">
+                <a class="footer-nav-bar__link" href="#">ABOUT US</a>
+              </li>
+              <li class="footer-nav-bar__item">
+                <a class="footer-nav-bar__link" href="#">CREATE YOUR PLAN</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="site-footer__list">
+
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">
+              <img class="site-footer__img" src="./images/Path.svg" alt="facebook logo">
+            </a>
+          </li>
+
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">
+              <img class="site-footer__img" src="./images/Path (1).svg" alt="twiter logo">
+            </a>
+          </li>
+
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">
+              <img class="site-footer__img" src="./images/Shape.svg" alt="instagram logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
